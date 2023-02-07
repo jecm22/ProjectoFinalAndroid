@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Fundación Soffry</string>
+    <string name="password">Ingrese su contraseña</string>
+    <string name="Email">Ingrese su correo</string>
+    <string name="iniciar_sesion">iniciar sesion</string>
+    <string name="iniciar_sesion_con_google">Iniciar Sesion con Google</string>
+    <string name="todo">TODO</string>
+    <string name="no_estas_registrado">No estas registrado?</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="siguenos_en_twitter">Siguenos en Twitter</string>
+    <string name="registrarse_newregister">Registrarse</string>
+    <string name="ingrese_su_correo_electronico">Ingrese su correo electronico</string>
+    <string name="ingrese_su_contrase_hint">Ingrese su contraseña</string>
+    <string name="no">no</string>
+    <string name="area_de_salud">AREA DE SALUD</string>
+    <string name="bienvenido">BIENVENIDO!</string>
+    <string name="https_fundacionsoffy_org">https://fundacionsoffy.org/</string>
+    <string name="_52_800_137_6672">+52 800 137 6672</string>
+    <string name="contacto">CONTACTO</string>
+    <string name="fundacion_soffy_una_mano_amiga_a_c">Fundacion Soffy, una mano amiga A.C</string>
+    <string name="siguenos_en_facebook">Siguenos en Facebook</string>
+    <string name="ll_manos_al">Llámanos al:</string>
+    <string name="visitanos_en_nuestra_pagina_web">Visitanos en nuestra pagina web</string>
+    <string name="prefs_file">com.jesus.PREFERENCES_KEY</string>
+</resources>

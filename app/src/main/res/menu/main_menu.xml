@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Exit"
+        android:title="Salir"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/herramientas"
+        android:title="Herramientas"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/AcercFunda"
+        android:title="Acerca de la fundacion"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/salud"
+        android:title="Salud"
+        app:showAsAction="never"/>
+
+</menu>

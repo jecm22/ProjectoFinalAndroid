@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "71754306457",
+    "project_id": "fundacion-soffy-ffbea",
+    "storage_bucket": "fundacion-soffy-ffbea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71754306457:android:b732d7f6758adbe62f7908",
+        "android_client_info": {
+          "package_name": "com.example.sourceofemulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71754306457-0k53ql9gg1qru6pihpnvceug8pd012tb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9G_Eg2qfo5Am06xUTYjRSOCTJB4A99BI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71754306457-0k53ql9gg1qru6pihpnvceug8pd012tb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

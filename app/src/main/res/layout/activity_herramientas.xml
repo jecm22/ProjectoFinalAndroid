@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    tools:context=".ActivityHerramientas">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/baseline_back"
+        app:iconSize="30dp"
+        app:iconTint="@color/black"
+        android:backgroundTint="@color/background1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/TvHerramientas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HERRAMIENTAS"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:textColor="@color/botonesLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnNewHerramienta"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btnNewHerramienta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="@color/botonesLogin"
+        app:cornerRadius="20dp"
+        android:text="mandar ubicacion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/btnTwoHerramientasDos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="@color/botonesLogin"
+        app:cornerRadius="20dp"
+        android:text="Tomar foto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/btnNewHerramienta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        android:textColor="@color/black"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

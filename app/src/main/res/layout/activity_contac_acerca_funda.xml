@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    tools:context=".ActivityContacAcercaFunda">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/background1"
+        app:icon="@drawable/baseline_back"
+        app:iconSize="30dp"
+        app:iconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+    <TextView
+        android:id="@+id/Llamanos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/ll_manos_al"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvContacto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/_52_800_137_6672"
+        android:textColor="#0CA193"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Llamanos" />
+
+    <TextView
+        android:id="@+id/tvContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contacto"
+        android:textColor="@color/botonesLogin"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/btnFacebook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/background1"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/siguenos_en_facebook"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:cornerRadius="20dp"
+        app:iconSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnInstagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/background1"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:text="Siguenos en Instagram"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnFacebook" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnTwiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/background1"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/siguenos_en_twitter"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnInstagram" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/background1"
+        android:contentDescription="@string/no"
+        android:src="@mipmap/facebook21_foreground"
+        app:layout_constraintBottom_toBottomOf="@id/btnFacebook"
+        app:layout_constraintEnd_toStartOf="@id/btnFacebook"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btnFacebook" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@color/background1"
+        android:contentDescription="@string/no"
+        android:src="@mipmap/insta1"
+        app:layout_constraintBottom_toBottomOf="@id/btnInstagram"
+        app:layout_constraintEnd_toStartOf="@id/btnInstagram"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btnInstagram" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@color/iconosoffy_background"
+        android:contentDescription="@string/no"
+        android:src="@mipmap/twitter2"
+        app:layout_constraintBottom_toBottomOf="@id/btnTwiter"
+        app:layout_constraintEnd_toStartOf="@id/btnTwiter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btnTwiter" />
+
+    <TextView
+        android:id="@+id/fundacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/fundacion_soffy_una_mano_amiga_a_c"
+        android:textColor="#0CA193"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnTwiter" />
+
+    <TextView
+        android:id="@+id/visitanos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/visitanos_en_nuestra_pagina_web"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fundacion" />
+
+    <TextView
+        android:id="@+id/urlSetOnclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/https_fundacionsoffy_org"
+        android:textColor="#0CA193"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/visitanos" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
